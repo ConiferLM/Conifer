@@ -1,0 +1,23 @@
+{
+    "Discuss the impact of implementing Jeff Walker's Product Launch Formula on client engagement and sales growth.": {
+        "constrainted_questions": {
+            "Difficulty 1": "How can small business owners leverage Jeff Walker's Product Launch Formula to increase their subscriber count within the first quarter post-launch?"
+        },
+        "constraints": "Target Audience: ['Small Business Owners', 'Online Entrepreneurs', 'Marketing Professionals', 'Startups']\nIndustry Focus: ['Digital Products', 'E-commerce', 'Self-help and Coaching', 'Software as a Service (SaaS)']\nGeographical Relevance: ['Global', 'North America', 'Europe', 'Asia-Pacific']\nTime Frame for Results: ['First Quarter Post-Launch', 'Within 6 Months', 'Year-End']\nKey Performance Indicators: ['Increase in Subscriber Count', 'Percentage Growth in Sales', 'Enhancement in Customer Engagement Metrics', 'Social Media Engagement Growth']\nMethodology Constraints: ['Use of Email Marketing', 'Social Media Campaigns', 'Webinars and Live Streams', 'Joint Ventures and Affiliates']\nFormat Control Constraints: ['Bullet Points', 'Case Study Examples', 'Comparative Analysis Pre and Post Implementation']\n"
+    },
+    "What criteria define a well-segmented customer segment?": {
+        "constrainted_questions": {
+            "Difficulty 1": "Considering age range and gender, what criteria define a well-segmented customer segment for a new skincare product? Please answer in list format.",
+            "Difficulty 3": "In terms of age range, gender, income level, and educational background, how can a technology company effectively segment its customer base, considering market size, market growth rate, and market trends? Answer in bullet points."
+        },
+        "constraints": "Demographic Factors: ['Age range', 'Gender', 'Income level', 'Educational background', 'Occupation', 'Marital status', 'Family size']\nGeographic Factors: ['Country', 'Region', 'Urban vs Rural', 'Climate zone']\nPsychographic Factors: ['Lifestyle', 'Interests', 'Values', 'Attitudes', 'Personality traits']\nBehavioral Factors: ['Product usage rate', 'Brand loyalty', 'Benefits sought', 'Readiness to buy', 'Occasions']\nTechnographic Factors: ['Preferred communication channels', 'Device usage', 'Internet activity', 'Social media platforms']\nMarket Factors: ['Market size', 'Market growth rate', 'Market trends']\nFormat Control Constraints: ['List format', 'Bullet points', 'No more than 5 subcategories per category']\n"
+    },
+    "Discuss the role of demographic information in identifying distinct customer segments.": {
+        "constrainted_questions": {
+            "Difficulty 1": "How does age and gender data, when analyzed through cluster analysis, contribute to identifying distinct customer segments? Answer in no more than 200 words.",
+            "Difficulty 2": "Considering the application of government census data and consumer behavior studies, how do age, gender, and income demographics enhance targeted advertising and product development strategies?",
+            "Difficulty 5": "With a focus on anonymized data and GDPR compliance, how does the integration of age, gender, income, and education level through predictive modeling and factor analysis improve targeted advertising, product development, and pricing strategy?"
+        },
+        "constraints": "Data Source Validity: ['Government census data', 'Social media analytics', 'Consumer behavior studies', 'Retail analytics']\nPrivacy and Ethics: ['Anonymized data', 'Consent obtained', 'Non-discriminatory analysis', 'GDPR compliance']\nDemographic Variables: ['Age', 'Gender', 'Income', 'Education level', 'Marital status', 'Geographic location']\nApplication in Marketing: ['Targeted advertising', 'Product development', 'Pricing strategy', 'Distribution channel optimization']\nAnalysis Techniques: ['Cluster analysis', 'Predictive modeling', 'Factor analysis', 'Trend analysis']\nOutcome Measurement: ['Increased sales', 'Improved customer satisfaction', 'Higher customer retention', 'Expanded market share']\nResponse Format: ['Bullet points', 'No more than 200 words']\n"
+    }
+}

@@ -1,0 +1,24 @@
+Construct a series of inquisitive statements pertaining to a specific named entity provided in the section labeled '[INSTRUCTION]'. Your responses should be structured in JSON format, organized under the section '[YOUR INSTRUCTIONS]'. Each instruction should be labeled as 'instruction1', 'instruction2', etc., within the JSON object, wherein 'i' represents the sequence number of the instruction. Ensure a minimum of three instructions are formulated. Should the scenario arise where no instructions can be generated, present an empty JSON object.
+
+The instructions must meet the following criteria:
+1. They should invite further exploration or discussion.
+2. The topics should allow for additional information to be discovered or discussed.
+3. They should be answerable independently of any additional context.
+4. They should refrain from requesting or disclosing any personal data.
+5. Each must include at least one subject and one predicate within its structure.
+6. The format of the instruction is flexible and is not required to conclude with a instruction mark.
+Below is an exemplary template to guide your construction:
+
+[INSTRUCTION]: 
+Do you know how to write WeChat applets? 
+[YOUR INSTRUCTION]: 
+{\"instruction1\": \"What is WeChat applets?\", \"instruction2\": \"Write a WeChat applet for marketing.\", \"instruction3\": \"Introduce the core function of WeChat applet.\"}
+
+[INSTRUCTION]: 
+Thank you for your help, bye. 
+[YOUR INSTRUCTION]: 
+{}
+
+[INSTRUCTION]: 
+%s
+[YOUR INSTRUCTION]:

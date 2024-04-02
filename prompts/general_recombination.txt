@@ -1,0 +1,42 @@
+You will be provided with a list of [CONSTRAINTS] to apply to an original [INSTRUCTION]. The [CONSTRAINTS] are categorized, and each category includes several subcategories. Your task is to select appropriate categories and their associated subcategories to modify the [INSTRUCTION], crafting a [REWRITE OF THE INSTRUCTION] that is more specific and tailored.
+
+For this exercise, not all categories and subcategories need to be employed. You will be producing a series of five instructions, with each instruction corresponding to a progressive level of difficulty, ranging from 1 to 5. Each level should incorporate an additional one to two categories and two to three subcategories to enhance complexity. Once the constraints' specified upper limits are reached, you may maintain that level of difficulty for subsequent instructions. The first level requires the use of one to two categories and two to three subcategories.
+
+Keep in mind that the [REWRITE OF THE INSTRUCTION] may alter the perspective of the inquirer while remaining within the parameters set by the [CONSTRAINTS]. Add to the [REWRITE OF THE INSTRUCTION] using only the chosen [SUBCATEGORY X] without directly referencing the [CATEGORY].
+
+Given the [CONSTRAINTS] and the original [INSTRUCTION], please generate a rewritten instruction for each difficulty level (1 through 5). The output should be formatted in JSON, with each difficulty level as a key and its corresponding rewritten instruction as the value.
+
+Here is a related sample:
+
+Example 1:
+[CONSTRAINTS]:
+Literary Era: ['Early 20th Century China']
+Literary Movements: ['New Culture Movement', 'May Fourth Movement']
+Work Types: ['Short Stories', 'Essays', 'Prose', 'Poetry', 'Translation']
+Social Impact: ['Protest against feudalism and reactionary forces', 'Promote the renovation of Chinese culture and literature']
+Literary Themes: ['Realism', 'Humanitarianism', 'Critical Spirit', 'National Liberation']
+Creative Style: ['Satire', 'Profound Social Criticism', 'Distinct Personal Features']
+Representative Works: ['\"Call to Arms\"', '\"Wandering\"', '\"New Stories\"', '\"Diary of a Madma
+"', '\"Dawn Blossoms Plucked at Dusk\"']
+Impact on Posterity: ['Had a profound influence on modern Chinese literature and its writers']
+Literary Status: ['Regarded as one of the founders of modern Chinese literature']
+Ideological Contribution: ['Advocated that literature should serve life and the progress of society', 'Advocated for the \"moral criticism\" function of literature']
+Language Art: ['Pioneered the creation of vernacular Chinese literature', 'Promoted the transition from Classical Chinese to modern vernacular Chinese']
+Response Format: ['List in bullet points', 'Paragraph with no more than 2 sentences', 'Response with no more than 10 words'],
+[INSTRUCTION]: 
+What are Lu Xun's major literary contributions? 
+[REWRITE OF THE INSTRUCTION]: 
+{
+\"Difficulty 1\": \"In which literary works did Lu Xun exhibit themes of protest against feudalism and reactionary forces in early 20th century China? Please reponse with no more than 10 words.\",
+\"Difficulty 2\": \"Describe the innovation of Chinese culture and literature contribution of Lu Xun's short stories and prose within the context of the New Culture Movement.\",
+\"Difficulty 3\": \"During the New Culture Movement, Lu Xun published two collections of short stories, 'Call to Arms' and 'Wandering', and the essays collection 'Dawn Blossoms Plucked at Dusk'. How did he reflect moral criticism of societal reality in these works and advocate for the moral criticism function of literature? Answer in bullet points.\",
+\"Difficulty 4\": \"During the New Culture Movement, how did Lu Xun express his protest against feudalism and reactionary forces through works such as 'Call to Arms', 'Wandering', and 'Diary of a Madman', as well as essays in 'Dawn Blossoms Plucked at Dusk', and how did he display his realist creative methods and critical spirit? How did he advocate for the moral criticism function of literature?\",
+\"Difficulty 5\": \"How did Lu Xun, in the context of the ideological enlightenment of the May Fourth Movement, pioneer the creation of vernacular Chinese literature through his collections of short stories 'Call to Arms' and 'Wandering', as well as his essays and translation work, and with the satire and profound social criticism in 'New Stories', advocate for literature to serve life and the progress of society, thereby having a profound impact on modern Chinese literature and its writers?\"
+}
+
+My sample:
+[CONSTRAINTS]:
+%s
+[INSTRUCTION]:
+%s
+[REWRITE OF THE INSTRUCTION]:

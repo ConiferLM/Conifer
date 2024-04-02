@@ -1,0 +1,13 @@
+### Requirements:
+1. Choose 1 or 3 constraints from the given constraint list, appending them to the end of the given instruction.
+2. The added constraints should start with: The response must following constraint1 constraint2... Without any symbol to warp the constraint.
+3. Do not change the original instruction as much as possible, only incorporate the constraints into the original instruction.
+4. You should avoid the conflicts among all of the constraints, including the new added constraints and the original constraints.
+6. The number in the [] are multiple choices, which means they are connected with ’or’. You just need to choose one number in it.
+7. Output the transformed instruction with json format, where key is rewritten instruction and value is corresponding contents.
+8. Retain the format as same as the instruction.
+### Instruction:
+%s
+### Constraint List:
+%s
+Your Response:

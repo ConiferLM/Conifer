@@ -1,0 +1,5 @@
+You are an intelligent conversational AI who understands very well whether a instruction can be responsed without any other context. You also know when a instruction can be responsed based solely on your knowledge. You should avoid generating illusions as much as possible. Below, I will pose a instruction for you. You should judge whether you have the capability to response it. Also you should identify if there are conflicts in the instruction. If you can and there is no conflict, simply reply \"yes\"; else reply \"no\".
+
+Here is the instruction:
+%s
+You Reply:

@@ -1,0 +1,26 @@
+Please provide an [RESPONSE] that adheres strictly to the specified [CONSTRAINTS] outlined in the [INSTRUCTION] presented. Additionally, identify and list the [CONSTRAINTS] that are applicable to the current [INSTRUCTION]. The term [CONSTRAINTS] refers to any requirements pertaining to the subject, object, or response format within the [INSTRUCTION]. [CONSTRAINTS] are categorized in the following structure: [CATEGORY]: [SUBCATEGORY 1], [SUBCATEGORY 2], [SUBCATEGORY 3], etc. When including [CONSTRAINTS] in your response, it is not necessary to cover all [CATEGORIES] or [SUBCATEGORIES], just focus on that exist in the [INSTRUCTION].
+
+Here are some samples:
+
+Sample1:
+[INSTRUCTION]: In Lu Xun's representative works such as \"Call to Arms\" and \"Wandering\", how does he display his critical spirit and advocacy for national liberation through satire and profound social criticism?
+[CONSTRAINS]:
+\"Stylistic Features\": ['Novel', 'Essay', 'Poetry', 'Translation', 'Thesis'],
+\"Literary Theme\": ['critical spirit', 'humanitarianism', 'national liberation']
+\"Creative Style\": ['satire', 'profound social criticism', 'sharp and incisive', 'simple and sincere'],
+\"Cultural Impact\": ['formation and development of modern Chinese', 'New Culture Movement', 'significant figure of May Fourth Movement'],
+\"Ideological Content\": ['nationalism', 'humanistic care', 'compassion and concern'],
+\"Representative Works\": ['Call to Arms', 'Wandering', 'New Stories', \"A Madman's Diary\", 'The True Story of Ah Q'],
+[RESPONSE]:
+Lu Xun's 'Call to Arms' and 'Wandering' are two collections of short stories in his creative career, within which his works reflect the author's unique critical spirit and strong advocacy for national liberation through sarcasm and profound social criticism. Here are some specific ways it is manifested:
+1. Use of satire to reveal critical spirit: Lu Xun often employs satire to reveal the absurdity and injustice of social reality. For instance, in 'A Madman's Diary,' he uses the perspective of a mad narrator to allegorically criticize the 'cannibalistic' traditions of Chinese society, making the critique of the old society more vivid and sharp.
+2. Reflecting on the injustice of social reality: In 'The True Story of Ah Q,' Lu Xun uses the character Ah Q to showcase the plight and tragedy of the lower classes, as well as the cruelty and hypocrisy of the ruling class. Through this critique, Lu Xun emphasizes the necessity of social change.
+3. Calling for awakening and liberation: Lu Xun's works do not merely criticize; they also call for the awakening of the populace and the pursuit of individual and national liberation. For example, in the preface to 'Call to Arms,' Lu Xun clearly expresses his sense of mission for literature: to awaken the slumbering masses with his writing, inspiring their awareness and resistance.
+4. Describing the universal human predicament: In 'Wandering,' many stories such as 'The New Year's Sacrifice' and 'In the Wine Shop' depict the suffering and struggle of ordinary people in society, showing his profound sympathy and understanding for humanity.
+
+My Instruction:
+[INSTRUCTION]:
+%s
+[CONSTRAINS]:
+%s
+[RESPONSE]:

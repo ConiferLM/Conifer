@@ -1,0 +1,14 @@
+{
+    "With a focus on anonymized data and GDPR compliance, how does the integration of age, gender, income, and education level through predictive modeling and factor analysis improve targeted advertising, product development, and pricing strategy? The answer must follow constraint Respond with 3 paragraphs.": {
+        "query": "Discuss the role of demographic information in identifying distinct customer segments.",
+        "diff": "Difficulty 3",
+        "question": "With a focus on anonymized data and GDPR compliance, how does the integration of age, gender, income, and education level through predictive modeling and factor analysis improve targeted advertising, product development, and pricing strategy? The answer must follow constraint Respond with 3 paragraphs.",
+        "answer": "Integrating anonymized data"
+    },
+    "With a focus on demographic factors (age range, gender, income level, educational background, occupation) and psychographic factors (lifestyle, interests, values), how can an online education platform segment its customer base to enhance brand loyalty and readiness to buy, considering market size, market growth rate, and market trends, as well as preferred communication channels and device usage? The answer must follow an answer with an introductory sentence, a 3-item list, and a concluding sentence provide an answer consisting of exactly 3 sentences per paragraph, with a minimum of 2 paragraphs.": {
+        "query": "What criteria define a well-segmented customer segment?",
+        "diff": "Difficulty 5",
+        "question": "With a focus on demographic factors (age range, gender, income level, educational background, occupation) and psychographic factors (lifestyle, interests, values), how can an online education platform segment its customer base to enhance brand loyalty and readiness to buy, considering market size, market growth rate, and market trends, as well as preferred communication channels and device usage? The answer must follow an answer with an introductory sentence, a 3-item list, and a concluding sentence provide an answer consisting of exactly 3 sentences per paragraph, with a minimum of 2 paragraphs.",
+        "answer": "An online education platform can strategically"
+    }
+}

@@ -1,0 +1,8 @@
+Does the ### Response follow all of the constraints in ### Instruction compared to the ### Ground Truth Response? If not, please describe which constraint the Response does not follow. You should explain why the Response does not follow instead of just response with a single word "No". If all the constraints are satisfied, just response with "Yes".
+### Instruction:
+%s
+### Response:
+%s
+### Ground Truth Response:
+%s
+### Your Judgement:

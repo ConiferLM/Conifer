@@ -1,0 +1,30 @@
+{
+    "Explain the process of adding multiple new columns in M for Power Query.": {
+        "constrainted_original_questions": {
+            "Difficulty 2": "In the context of data cleaning with Power BI Desktop's latest version, what is the process for generating multiple new columns based on delimiter splitting in semi-structured data? Include screenshots.",
+            "Difficulty 5": "Detail the process of adding, splitting, and appending columns in M for Power Query within Power BI Desktop's latest version, focusing on advanced techniques for data transformation, column generation, and performance optimization for semi-structured data. Instructions should be in bullet points, optimized for reducing resource consumption.",
+            "Difficulty 4": "For data visualization preparation in Power BI Desktop, how can one optimize the addition of calculated value columns and splitting columns based on delimiters for large datasets, ensuring minimized query refresh time? Provide step-by-step instructions with screenshots."
+        },
+        "constrainted_questions": {
+            "Difficulty 2": "In the context of data cleaning with Power BI Desktop's latest version, what is the process for generating multiple new columns based on delimiter splitting in semi-structured data? Include screenshots. The answer must follow constraint Enclose the word or phrase to be emphasized with ** on each side constraint Indicate an action by prefacing the sentence with an asterisk *.",
+            "Difficulty 5": "Detail the process of adding, splitting, and appending columns in M for Power Query within Power BI Desktop's latest version, focusing on advanced techniques for data transformation, column generation, and performance optimization for semi-structured data. Instructions should be in bullet points, optimized for reducing resource consumption. The answer must follow constraint1 constraint3. Mark the focus word or phrase with // on either side to indicate italics. Answer within [100, 150] words.",
+            "Difficulty 4": "For data visualization preparation in Power BI Desktop, how can one optimize the addition of calculated value columns and splitting columns based on delimiters for large datasets, ensuring minimized query refresh time? Provide step-by-step instructions with screenshots. The answer must enclose the word or phrase to be emphasized with ** on each side indicate an action by prefacing the sentence with an asterisk *."
+        }
+    },
+    "Discuss the role of demographic information in identifying distinct customer segments.": {
+        "constrainted_original_questions": {
+            "Difficulty 3": "With a focus on anonymized data and GDPR compliance, how does the integration of age, gender, income, and education level through predictive modeling and factor analysis improve targeted advertising, product development, and pricing strategy?"
+        },
+        "constrainted_questions": {
+            "Difficulty 3": "With a focus on anonymized data and GDPR compliance, how does the integration of age, gender, income, and education level through predictive modeling and factor analysis improve targeted advertising, product development, and pricing strategy? The answer must follow constraint Respond with 3 paragraphs."
+        }
+    },
+    "What criteria define a well-segmented customer segment?": {
+        "constrainted_original_questions": {
+            "Difficulty 5": "With a focus on demographic factors (age range, gender, income level, educational background, occupation) and psychographic factors (lifestyle, interests, values), how can an online education platform segment its customer base to enhance brand loyalty and readiness to buy, considering market size, market growth rate, and market trends, as well as preferred communication channels and device usage?"
+        },
+        "constrainted_questions": {
+            "Difficulty 5": "With a focus on demographic factors (age range, gender, income level, educational background, occupation) and psychographic factors (lifestyle, interests, values), how can an online education platform segment its customer base to enhance brand loyalty and readiness to buy, considering market size, market growth rate, and market trends, as well as preferred communication channels and device usage? The answer must follow an answer with an introductory sentence, a 3-item list, and a concluding sentence provide an answer consisting of exactly 3 sentences per paragraph, with a minimum of 2 paragraphs."
+        }
+    }
+}

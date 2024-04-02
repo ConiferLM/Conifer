@@ -1,0 +1,4 @@
+Please provide a response that adheres strictly to the specified constraints outlined in the instruction presented. The term constraints refers to any requirements pertaining to the subject, object, or response format within the instruction. Also explain how did you deal with the numerical/format constraints at the end of your response.
+Instruction:
+%s
+Your Response:

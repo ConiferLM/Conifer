@@ -1,0 +1,5 @@
+Summarize the main ideas of Jeff Walker's Product Launch Formula into bullet points as it pertains to a growth marketing agency implementing these strategies and tactics for their clients...
+How to tell if a customer segment is well segmented? In 3 bullet points.
+In Java, I want to replace string like \"This is a new {object} at {place}\" with a Map, {object: \"student\", \"point 3, 4\"}, and get a result \"This is a new student at point 3, 4\". How can I do?
+how do I add multiple new columns in m for power query or power bi?
+Sure, I can do that. What new technology would you like me to review?
