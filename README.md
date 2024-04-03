@@ -4,7 +4,7 @@ This repository contains the source code for reproducing the Conifer dataset.
 
 <p align="center">
   🤗 <a href="https://huggingface.co/datasets/ConiferLM/Conifer">HF Repo</a>&nbsp;&nbsp;&nbsp;
-  📄 <a href="https://arxiv.org/abs/2402.20000">Paper</a>&nbsp;&nbsp;&nbsp;
+  📄 <a href="https://arxiv.org/abs/2403.00000">Paper To Appear in ArXiv</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -23,7 +23,7 @@ We fine-tuned **Mistral-7B** and **LLaMA-2-13B** based on the combination of Con
 </p>
 
 #### 0. Prepare the seed instruction. 
-- We use the ShareGPT data as the initial seed instructions. This can be done by running the command `python 00_get_seed.py --input your_seed_file_path`. The script needs FastText models for language identification. You can get the model from [FastText Language identification](https://fasttext.cc/docs/en/language-identification.html).
+- We use the ShareGPT data as the initial seed instructions. This can be done by running the command `python 00_get_seed.py --input your_seed_file_path`. The script needs FastText models for language identification. You can get the model `lid.176.bin` from [FastText Language identification](https://fasttext.cc/docs/en/language-identification.html).
 - If you would like to use other data, simply compile them into a single .txt file with each line representing a seed instruction. The txt file should be named `selected_query.txt` and placed in the `./conifer_data` folder.
 
 #### 1. Conifer Dataset Construction (without external process feedback)
@@ -83,7 +83,7 @@ We have listed the evaluation benchmarks that we used in our paper. Except for I
 | Zephyr-7B-beta  | DPO | 44.9 | 44.8 | 36.4 | 78.0 | 13.2% | 7.34 |
 | Deita-7B-v1.0  | DPO | 51.9 | 45.7 | 38.5 | 80.9 | 16.1% | 7.55 |
 | ShareGPT-7B-DPO  | DPO| 48.2 | 47.7 | 38.9 | 82.0 | 15.1% | 7.10 |
-| Conifer-7B-DPO  |DPO| 52.3 | 50.0 | 44.1 | 82.3 | 17.7% | 7.25 |
+| Conifer-7B-DPO  |DPO| 52.3 | 50.0 | 44.1 | 82.3 | 17.1% | 7.25 |
 
 ## Citation
 
