@@ -14,7 +14,7 @@ This repository contains the source code for reproducing the Conifer dataset.
 
 ## Model 
 
-We fine-tuned **Mistral-7B** and **LLaMA-2-13B** based on the combination of Conifer dataset and [ShareGPT-53k data](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered), using the [alignment-handbook](https://github.com/huggingface/alignment-handbook) and [FastChat](https://github.com/lm-sys/FastChat).  
+We fine-tuned **[Mistral-7B](https://huggingface.co/mistralai/Mistral-7B-v0.1)** and **[LLaMA-2-13B](https://huggingface.co/meta-llama/Llama-2-13b-hf)** based on the combination of Conifer dataset and [ShareGPT-53k data](https://huggingface.co/datasets/anon8231489123/ShareGPT_Vicuna_unfiltered), using the [alignment-handbook](https://github.com/huggingface/alignment-handbook) and [FastChat](https://github.com/lm-sys/FastChat).  
 
 ## <img src="./figures/conifer.webp" width="20" height="20"> Conifer Dataset Construction
 
@@ -65,25 +65,25 @@ We have listed the evaluation benchmarks that we used in our paper. Except for I
 
 ## Performance
 
-#### Supervised Fine-tuned (SFT) Models
+#### Supervised Fine-Tuned (SFT) Models
 
-|  -   | Final Stage | IFEval  | FollowBench Avg  | FollowBench Hard (L4-L5)  | InFoBench  | AlpacaEval LC Win Rate  | MT-Bench  |
-|  :----  | :----  | :----  | :----  | :----  | :----  | :----  | :----  |
-| Deita-7B-v1.0-SFT  | SFT | 45.1 | 42.0 | 31.6 | 78.6 | - | 7.22 |
-| Evol-Instruct-7B-SFT  | SFT | 44.0 | 40.7 | 27.6 | 75.6 | 9.4% | 6.51 |
-| ShareGPT-7B-SFT  | SFT | 43.3 | 42.9 | 32.3 | 78.5 | 11.6% | 6.86 |
-| Conifer-7B-SFT  |SFT | 50.8 | 44.9 | 35.7 | 79.5 | 12.5% | 7.08 |
+|  -   | Final Stage | Base Model | IFEval  | FollowBench Avg  | FollowBench Hard (L4-L5)  | InFoBench  | AlpacaEval LC Win Rate  | MT-Bench  |
+|  ----  | ----  | ---- | ----  | ----  | ----  | ----  | ----  | ----  |
+| Deita-7B-v1.0-SFT  | SFT | Mistral-7B | 45.1 | 42.0 | 31.6 | 78.6 | - | 7.22 |
+| Evol-Instruct-7B-SFT  | SFT | Mistral-7B | 44.0 | 40.7 | 27.6 | 75.6 | 9.4% | 6.51 |
+| ShareGPT-7B-SFT  | SFT | Mistral-7B | 43.3 | 42.9 | 32.3 | 78.5 | 11.6% | 6.86 |
+| Conifer-7B-SFT  |SFT | Mistral-7B | 50.8 | 44.9 | 35.7 | 79.5 | 12.5% | 7.08 |
 
 
 #### DPO/RLHF Models
 
-|  -   | Final Stage | IFEval  | FollowBench Avg  | FollowBench Hard (L4-L5)  | InFoBench  | AlpacaEval LC Win Rate  | MT-Bench  |
-|  ----  | ----  | ----  | ----  | ----  | ----  | ----  | ----  |
-| LLaMA-2-70B-Chat  | RLHF | - | 47.5 | 39.0 | 84.4 | 14.7% | 6.86 |
-| Zephyr-7B-beta  | DPO | 44.9 | 44.8 | 36.4 | 78.0 | 13.2% | 7.34 |
-| Deita-7B-v1.0  | DPO | 51.9 | 45.7 | 38.5 | 80.9 | 16.1% | 7.55 |
-| ShareGPT-7B-DPO  | DPO| 48.2 | 47.7 | 38.9 | 82.0 | 15.1% | 7.10 |
-| Conifer-7B-DPO  |DPO| 52.3 | 50.0 | 44.1 | 82.3 | 17.1% | 7.25 |
+|  -   | Final Stage | Base Model | IFEval  | FollowBench Avg  | FollowBench Hard (L4-L5)  | InFoBench  | AlpacaEval LC Win Rate  | MT-Bench  |
+|  ----  | ----  | ---- | ----  | ----  | ----  | ----  | ----  | ----  |
+| LLaMA-2-70B-Chat  | RLHF | LLaMA-2-70B | - | 47.5 | 39.0 | 84.4 | 14.7% | 6.86 |
+| Zephyr-7B-beta  | DPO | Mistral-7B | 44.9 | 44.8 | 36.4 | 78.0 | 13.2% | 7.34 |
+| Deita-7B-v1.0  | DPO | Mistral-7B | 51.9 | 45.7 | 38.5 | 80.9 | 16.1% | 7.55 |
+| ShareGPT-7B-DPO  | DPO| Mistral-7B | 48.2 | 47.7 | 38.9 | 82.0 | 15.1% | 7.10 |
+| Conifer-7B-DPO  |DPO| Mistral-7B | 52.3 | 50.0 | 44.1 | 82.3 | 17.1% | 7.25 |
 
 ## Citation
 
