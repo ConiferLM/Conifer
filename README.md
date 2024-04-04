@@ -4,7 +4,7 @@ This repository contains the source code for reproducing the Conifer dataset.
 
 <p align="center">
   🤗 <a href="https://huggingface.co/datasets/ConiferLM/Conifer">HF Repo</a>&nbsp;&nbsp;&nbsp;
-  📄 <a href="https://arxiv.org/abs/2403.00000">Paper To Appear in ArXiv</a>&nbsp;&nbsp;&nbsp;
+  📄 <a href="https://arxiv.org/abs/2404.02823">Paper</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 
@@ -94,8 +94,8 @@ If you find the content of this project helpful, please cite our paper as follow
   sun2024conifer,
   title={Conifer: Improving Complex Constrained Instruction-Following Ability of Large Language Models},
   author={Haoran Sun and Lixin Liu and Junjie Li and Fengyu Wang and Baohua Dong and Ran Lin and Ruohui Huang},
-  journal={arxiv preprint arXiv:},
+  journal={arxiv preprint arXiv:2404.02823},
   year={2024},
-  url={}
+  url={https://arxiv.org/abs/2404.02823}
 }
 ```
